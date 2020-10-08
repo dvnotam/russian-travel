@@ -1,0 +1,15 @@
+.header__lang-link {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.header__lang-link:nth-child(1) {
+    margin-right: 18px;
+    border-bottom: 1px solid #fff;
+}
