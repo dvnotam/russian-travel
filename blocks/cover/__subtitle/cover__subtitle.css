@@ -1,0 +1,15 @@
+.cover__subtitle {
+    margin: 0;
+    color: #ffffff;
+    max-width: 360px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    z-index: 2;
+}
+
+.cover__subtitle:hover ~ .cover__overlay {
+    opacity: 0.8;
+}
