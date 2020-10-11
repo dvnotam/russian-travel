@@ -4,7 +4,12 @@
     margin: 0 auto;
     margin-top: 92px;
     margin-bottom: 92px;
-    min-height: 100vh;
+}
+
+@media screen and (max-width: 11279px) {
+    .places {
+        max-width: 928px;
+    }
 }
 
 @media screen and (max-width: 1023px) {

@@ -1,3 +1,7 @@
 .cover {
     text-decoration: none;
 }
+
+.cover:hover ~ .cover__overlay {
+    opacity: 0.8;
+}
