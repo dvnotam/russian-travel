@@ -8,11 +8,16 @@
     line-height: 163%;
 }
 
+@media screen and (max-width:1023px) {
+    .place__pharagraph {
+        font-size: 16px;
+        line-height: 28.08px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .place__pharagraph {
         width: calc(100% - 16px * 2);
         margin: 0 auto;
-        font-size: 16px;
-        line-height: 26.08px;
     }
 }

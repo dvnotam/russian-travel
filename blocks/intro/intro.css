@@ -16,6 +16,8 @@
     .intro {
         max-width: 720px;
         margin: 0 auto;
+        margin-top: 88px;
+        margin-bottom: 88px;
     }
 }
 
