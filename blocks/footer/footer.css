@@ -8,6 +8,11 @@
     justify-content: space-between;
 }
 
+.nav__mobile {
+    display: none;
+    color: white;
+}
+
 @media screen and (max-width: 1023px) {
     .footer {
         max-width: calc(100vw - (24px * 2));
@@ -22,4 +27,16 @@
         margin-bottom: 24px;
         flex-direction: column;
     }
+    
+    .nav__haiden {
+        display: none;
+    }
+
+    .nav__mobile {
+        display: block;
+    }
+}
+
+.nav__show {
+    display: block;
 }
